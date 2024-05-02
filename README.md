@@ -8,6 +8,8 @@
 - **URL:** `/api/vendors/`
 - **Method:** `POST`
 - **Description:** Create a new vendor profile.
+- ![image](https://github.com/akanshabaishwade/vendor_management_system/assets/85228361/82a89147-adb9-4fdc-9f5c-907b282ac9a4)
+
 - **Request Body:**
   ```json
   {
@@ -17,6 +19,7 @@
     "vendor_code": "Unique Vendor Code"
   }
   ```
+
 
 ### List all vendors
 
@@ -29,12 +32,16 @@
 - **URL:** `/api/vendors/{vendor_id}/`
 - **Method:** `GET`
 - **Description:** Retrieve details of a specific vendor.
+- ![image](https://github.com/akanshabaishwade/vendor_management_system/assets/85228361/ab5ac903-be6e-40b4-bde7-9eebece41e06)
+  
 
 ### Update a vendor's details
 
 - **URL:** `/api/vendors/{vendor_id}/`
 - **Method:** `PUT`
 - **Description:** Update a vendor's details.
+- ![image](https://github.com/akanshabaishwade/vendor_management_system/assets/85228361/2c3bd002-7455-4138-b8f6-da8e1861d340)
+
 - **Request Body:**
   ```json
   {
@@ -114,4 +121,6 @@
 - **URL:** `/api/vendors/{vendor_id}/performance`
 - **Method:** `GET`
 - **Description:** Retrieve performance metrics for a specific vendor.
+- ![image](https://github.com/akanshabaishwade/vendor_management_system/assets/85228361/99f6870c-b9df-44a2-895a-33d205c372cf)
+
 

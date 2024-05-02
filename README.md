@@ -1,10 +1,9 @@
 
-```
-#Vendor Management System API Documentation
+# **Vendor Management System API Documentation**
 
-##Vendor Profile Management
+## **Vendor Profile Management**
 
-###Create a new vendor
+### **Create a new vendor**
 
 - **URL:** `/api/vendors/`
 - **Method:** `POST`
@@ -115,4 +114,4 @@
 - **URL:** `/api/vendors/{vendor_id}/performance`
 - **Method:** `GET`
 - **Description:** Retrieve performance metrics for a specific vendor.
-```
+
